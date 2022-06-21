@@ -12,8 +12,10 @@ check_update: true
 # 自定义样式
 customStyles:
   images: # 图片相关设置
-    banner: /images/banner.webp # 站点横幅
-    background: /images/bg.webp # 站点背景
+    #banner: /images/banner.webp # 站点横幅
+    banner: https://s3.bmp.ovh/imgs/2022/06/21/2112e4e972424569.webp # 外链图床
+    #background: /images/bg.webp # 站点背景
+    background: https://s3.bmp.ovh/imgs/2022/06/21/cf5e961beb73f3ad.webp
 
 # Index 首页配置
 index:
@@ -44,15 +46,15 @@ label:
 group_link: 
 contact:
   weibo: 
-  mail: 
-  telegram: CandyUnion
+  mail: starry@roun1nn.top
+  telegram: 
   twitter: 
   facebook: 
   linkedin: 
   fediverse:
-    instance: nya.one
-    username: Candinya
-  github: Candinya
+    instance: 
+    username: 
+  github: roun1nN
   rss:
 timenotice: 本站已运行
 icp: 
@@ -167,7 +169,7 @@ jsconfig:
       random_amount: 20 # 表示从1~20
       filename: "images/thumb/thumb_{no}.webp" # 相对于主题根目录，表示文件名的格式, {no} 用以指代随机的编号。
                                               # 如果包含 // 表示使用指定域名的绝对路径（例如第三方图床服务等），那么会忽略 CDN 选项
-    createTime: "2018/05/06 17:03:12"
+    createTime: "2022/06/21 14:43:57"
     donateBtn: "支持我~"
     scanNotice: "扫一扫，好不好？"
     qr_alipay: "/images/alipayqr.webp"
@@ -192,7 +194,7 @@ friends:
     title: "好伙伴们"
     comments: false
     description: "好伙伴们在哪里~"
-    updated: "2021-01-18"
+    updated: "2022-06-21"
   list:
   # - name: "猫猫①号"
   #   bio: "喵~"
