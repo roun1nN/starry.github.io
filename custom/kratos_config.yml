@@ -39,7 +39,7 @@ label:
   friends: <i class="fa fa-paw"></i>好伙伴
   sites:
     submenu: <i class="fa fa-link"></i>链接
-    author: 作者博客
+    author: 作者主页
     project: 项目链接
 
 # Footer 页脚配置
