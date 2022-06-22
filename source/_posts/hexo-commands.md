@@ -1,5 +1,10 @@
 ---
 title: Hexo commands
+date: 2012/6/21 hh:mm:ss # 时间
+categories:
+- Diary
+tags:
+- green hand
 ---
 
 Some basic commands of hexo.
@@ -26,7 +31,7 @@ hexo s
 hexo n "学习笔记  一"
 ```
 
-新建一篇标题为 `学习笔记 六` 的文章，因为标题里有空格，所以加上了引号。
+新建一篇标题为 `学习笔记 一` 的文章，因为标题里有空格，所以加上了引号。
 
 - 文章标题可以在对应 md 文件里改，新建时标题可以写的简单些；
 - `hexo n` 是 `hexo new` 的缩写，命令效果一致。
