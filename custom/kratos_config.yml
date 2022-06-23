@@ -146,7 +146,8 @@ widgets:
 - category
 - tagcloud
 - posts
-avatarUri: /images/avatar.webp
+# avatarUri: /images/avatar.webp #头像
+avatarUri: https://s3.bmp.ovh/imgs/2022/06/23/75d0c536014a2b39.webp
 mobile_toc: 
   hide: false
   hide_id: false
