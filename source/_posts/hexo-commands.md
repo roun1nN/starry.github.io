@@ -1,6 +1,6 @@
 ---
 title: Hexo commands
-date: 2012/6/21 hh:mm:ss # 时间
+date: 2022/6/21 hh:mm:ss # 时间
 categories:
 - Diary
 tags:
