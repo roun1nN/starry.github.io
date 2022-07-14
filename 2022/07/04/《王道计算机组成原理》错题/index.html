@@ -25,7 +25,7 @@
 <meta property="og:locale">
 <meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/06/16/c104c119bc5e31a4.png">
 <meta property="article:published_time" content="2022-07-04T14:54:59.000Z">
-<meta property="article:modified_time" content="2022-07-12T01:24:15.353Z">
+<meta property="article:modified_time" content="2022-07-14T10:45:30.208Z">
 <meta property="article:author" content="Roun1nN">
 <meta property="article:tag" content="错题">
 <meta name="twitter:card" content="summary">
@@ -178,7 +178,7 @@
                     <i class="fa fa-edit"></i> 
                     
                     
-                        ~2.17K
+                        ~4.30K
                     
                     字
                 </li>
@@ -189,7 +189,7 @@
             
             <div id="expire-alert" class="alert alert-warning hidden" role="alert">
                 <div class="icon"><i class="fa fa-warning"></i></div>
-                <div class="text"><p>本文最后编辑于 <time datetime="1657589055353"></time> 前，其中的内容可能需要更新。</p></div>
+                <div class="text"><p>本文最后编辑于 <time datetime="1657795530208"></time> 前，其中的内容可能需要更新。</p></div>
             </div>
             
             
@@ -231,10 +231,37 @@
 <p>A.x<font size=1>1</font>~x<font size=1>5</font>至少有一个为1 B.x<font size=1>1</font>必须为0,x<font size=1>2</font>~x<font size=1>5</font>至少有一个为1 C.x<font size=1>1</font>必须为0,x<font size=1>2</font>~x<font size=1>5</font>任意 D.x<font size=1>1</font>必须为1,x<font size=1>2</font>~x<font size=1>5</font>任意</p>
 <p><font color=Blue>答:补码不好直接比较大小，可将其转换为移码,由于移码真值大小关系和二进制值大小关系相同,故当[x]<font size=1>移</font>&lt;[-16]<font size=1>移</font>即可满足,0的移码为10 0000,-16即将该码减去16,得01 0000,若x&lt;-16,则二进制值x<font size=1>1</font>x<font size=1>2</font>x<font size=1>3</font>x<font size=1>4</font>x<font size=1>5</font>&lt;1 0000,只需x<font size=1>1</font>为0即可</font></p>
 <p><font color=pink>(markdown语法竟然会用中划线划掉两个’~‘符号中间的部分,而且typora还没有这个效果的预览,<del>奇怪的知识增加了</del>)</font></p>
-<p>P32-16  29 【2018】冯诺依曼结构计算机中的数据采用二进制编码表示,其主要原因是(<font color=Red>D</font>)</p>
+<h3 id="2-2-运算方法和运算电路"><a href="#2-2-运算方法和运算电路" class="headerlink" title="2.2 运算方法和运算电路"></a>2.2 运算方法和运算电路</h3><p>P32-16 【2018】冯诺依曼结构计算机中的数据采用二进制编码表示,其主要原因是(<font color=Red>D</font>)</p>
 <p>Ⅰ二进制的运算规则简单 Ⅱ制造两个稳态的物理器件较容易 Ⅲ 便于用逻辑门电路实现算术运算</p>
 <p>A.ⅠⅡ B.ⅠⅢ C.Ⅱ ⅢD.ⅠⅡ Ⅲ</p>
 <p><font color=Blue>答:略</font></p>
+<p>P49-02 ALU作为运算器的核心部件,其属于(<font color=Red>B</font>)</p>
+<p>A.时序逻辑电路 B.组合逻辑电路 C.控制器 D.寄存器</p>
+<p><font color=Blue>答:Arithmetic Logic Unit算术逻辑单元,将输入信号转为需要的输出信号,执行加减乘除与或非异或等逻辑运算,无寄存功能。时序逻辑:当前状态+输入→输出,组合逻辑:无记忆性</font></p>
+<p>10 一个8位寄存器内数值是11001010,进位标志寄存器C为0,若将此8位寄存器循环左移(不带进位位)1位,则该8位寄存器和标志寄存器中的数值分别为(<font color=Red>C</font>)</p>
+<p>A.10010100  1 B.10010101  0 C.10010101  1 D.10010100  0</p>
+<p><font color=Blue>答:<img src="https://s3.bmp.ovh/imgs/2022/07/14/1708d2d5fae44d42.webp" width="50%" height="50%" />由图可知:带进位位的循环左移需要将首位同时送到进位位和末位</font></p>
+<p>14 在定点运算器中,无论是采用双符号位还是单符号位,必须以后(<font color=Red>C</font>)</p>
+<p>A.译码电路,它一般用”与非”门来实现 B.编码电路,它一般用”或非”门来实现 C.溢出判断电路,它一般用”异或”门来实现 D.移位电路,它一般用”与或非”门来实现</p>
+<p><font color=Blue>答:译码电路:二进制-&gt;信号 编码电路:信号-&gt;二进制 加法电路: 异或 移位电路:触发器  溢出判断电路:异或  \n判断溢出中,单符号:输入的符号是否相同 双符号:两个符号位是否相同 单符号、进位:符号位、进位是否相同</font></p>
+<p>15 关于模4补码.先烈说法正确的是(<font color=Red>B</font>)</p>
+<p>A.模4补码和模2补码不同,它更容易检查乘除运算中的溢出问题 </p>
+<p>B. 每个模4补码存储时只需要一个符号位</p>
+<p>C.存储每个模4补码需要两个符号位</p>
+<p>D.模4补码,在算术逻辑部件中位一个符号位<br><font color=Blue>答:对于双符号位,00代表正,11代表负,若两符号位不同,则说明发生了溢出,其中01为上溢,10为下溢。而数值在存储时双符号位两个符号的值相同,即存储时符号位只需要一个。正确的数据:符号位同0或同1,存储一位,计算时调整为两位</font></p>
+<p>22 在原码一位乘法中,(<font color=Red>B</font>)</p>
+<p>A.符号位参加运算</p>
+<p>B.符号位不参加运算</p>
+<p>C.符号位参加运算,并根据运算结果改变结果中的符号位</p>
+<p>D.符号位不参加运算,并根据运算结果确定结果中的符号<br><font color=Blue>答:符号位单独处理,不算作参加运算。</font></p>
+<p>26 下列关于补码触发的说法中,正确的是(<font color=Red>B</font>)</p>
+<p>A.补码不恢复除法中,够减商0,不够减商1</p>
+<p>B.补码不恢复余数除法中,异号相除时,够减商0,不够减商1</p>
+<p>C.补码不恢复除法中,够减商1,不够减商0</p>
+<p>D.以上都不对<br><font color=Blue>答:符号位参加运算-&gt;影响每一步  移位+加法。如果同号,那这一位的商为余数&#x2F;除数,所以一定是够减商1,不够则商0,异号则相反。运用加减交替法,商0时由于机器无法直接判断大小,需要前面减一次y后通过符号判断，要保证和恢复余数再移位除的新余数一致,可以移位并加上[y]<font size=1>补</font></font></p>
+<p>27 下列关于各种移位的说法正确的是(<font color=Red>全对</font>)<br>Ⅰ.加上金额机器数采用反码表示,当机器数为负时,左移时最高数位丢0,结果出错;右移时最低数位丢0,影响精度<br>Ⅱ.再算术移位的情况下,补码左移的前提条件是其原最高有效位与原符号位要相同<br>Ⅲ.在算术移位的情况下,双符号位的移位操作只有低符号位需要参加移位操作<br><font color=Blue>答:对于Ⅰ,一开始理解错了,没明白最高数位丢0的意思是:”如果最高数位丢0”,反码丢0即原码丢1,原码高位丢1出错,地位丢1损失精度;对于Ⅱ,补码若想不出错,移位必须相当于原码丢0,当最高有效位与符号位相同,高位负丢1,正丢0,正确;Ⅲ:双符号位中,高位代表符号,低位处理溢出,即01为正溢出(只有两个0开头的补码相加才有可能得到01),10为负溢出,当数值位发生了移位,会将高位移到符号位低位用于判断溢出</font></p>
+<p>39 【2016】某机器字长为32位,按字节编址,采用小端方式存放数据,假定有一个double型变量,其机器数表示为1122 3344 5566 7788H,存放在0000 8040H开始的连续存储单元中,则存储单元0000 8046H中存放的是(<font color=Red>A</font>)<br>A.22H B.33H C.77H D.66H<br><font color=Blue>答:纯粹自己铸币了,从00H到06H应该是从00H开始的第7个存储单元而非第六个,并非06-00</font></p>
+<p>41 【2018】某机器字长为32位,按字节编址,采用小端方式。若语句”int i &#x3D; 0;”对应指令的机器代码位”C7 45 FC 00 00 00 00”,则语句”int i &#x3D; -64;”对应指令的机器代码是(<font color=Red>A</font>)<br>A.C7 45 FC C0 FF FF FF B.C7 45 FC 0C FF FF FF C.C7 45 FC FF FF FF C0 D.C7 45 FC FF FF FF 0C<br><font color=Blue>答:小端存储,低位存在低地址。显然从左往右的前3字节代表了int i,后面8个16进制位正好对应一个4字节整型变量。-64补码111……1000000,换成16进制为FF FF FF C0H,C0为低位,存放在低字节地址其余全为FF,小端存储字节内顺序不变,字节与字节之间按从低位到高位的顺序存储,此题中,由题意可知C7 45 FC为初始化指令操作码,处于低字节位置,所以左高右低,FF FF FF C0数值低位到高位分别为C0 FF FF FF，故选C</font></p>
 </div>
         </div>
         
@@ -327,7 +354,7 @@ C. 解释程序方法较简单，运行速度也...`;
                     <a class="tag-none-link" href="/tags/%E9%94%99%E9%A2%98/" rel="tag">错题</a>
                 </div>
                 <div class="pull-date">
-                    <time datetime="2022-07-12T01:24:15.353Z" itemprop="dateModified">最后编辑：2022-07-12</time>
+                    <time datetime="2022-07-14T10:45:30.208Z" itemprop="dateModified">最后编辑：2022-07-14</time>
                 </div>
             </div>
         </footer>
