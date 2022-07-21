@@ -13,9 +13,9 @@ check_update: true
 customStyles:
   images: # 图片相关设置
     #banner: /images/banner.webp # 站点横幅
-    banner: https://s3.bmp.ovh/imgs/2022/06/21/2112e4e972424569.webp # 外链图床
+    banner: https://pic.imoe.pw/2022/07/21/177b225572599.webp # 外链图床
     #background: /images/bg.webp # 站点背景
-    background: https://s3.bmp.ovh/imgs/2022/06/21/e8b1602d41cde575.webp
+    background: https://pic.imoe.pw/2022/07/21/2135022bdcc00.webp
 
 # Index 首页配置
 index:
